@@ -1,3 +1,9 @@
+#Problem 50.Pow(x,n)
+
+'''
+Notes:
+
+'''
 class Solution:
         
     def myPow(self, x :float, n :int) -> float:
