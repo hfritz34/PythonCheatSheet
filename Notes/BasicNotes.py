@@ -13,7 +13,7 @@ s = "abcdef"
 print(s[0:3])
 
 #Remeber though that strings are immutable in python
-s[0] ="A"
+#s[0] ="A" this will toss an error
 
 #Unpacking in python
 
@@ -35,5 +35,8 @@ for n in arr:
 #Index and value
 for i,n in enumerate(arr):
     print(i,n)
+
+#.find() in python finds the lowest substring of string and returns its Index
+print("henry".find("h"))
 
 
