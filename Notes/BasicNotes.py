@@ -39,4 +39,15 @@ for i,n in enumerate(arr):
 #.find() in python finds the lowest substring of string and returns its Index
 print("henry".find("h"))
 
+#dict  comprehension syntax
+employees = [[1,5,[2,3]],[2,3,[]],[3,3,[]]]
+
+emp_map = {}
+for emp in employees:
+    emp_map[emp[0]] = emp
+
+emp_map2 = {emp[0]: emp for emp in employees}
+
+print(emp_map)
+print(emp_map2)
 
