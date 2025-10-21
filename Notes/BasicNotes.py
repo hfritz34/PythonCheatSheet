@@ -51,3 +51,10 @@ emp_map2 = {emp[0]: emp for emp in employees}
 print(emp_map)
 print(emp_map2)
 
+#adj list
+n = 10 #let n be the number of nodes we are working with
+adj = [[] for _ in range(n)]
+print(adj)
+
+
+
