@@ -1,3 +1,6 @@
+import random
+import time
+
 def merge(left, right):
     '''
     Merge takes in two SORTED arrays, left and right, and merges them together using two pointers, i and j
